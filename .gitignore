@@ -1,0 +1,5 @@
+packages/
+[Bb]in/
+[Oo]bj/
+Generated/
+node_modules/

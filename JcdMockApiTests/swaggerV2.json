@@ -1,0 +1,154 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "JCDMockAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/Wombats": {
+      "get": {
+        "tags": [
+          "Wombats",
+          "GET"
+        ],
+        "summary": "Get me the wombats. All of them.",
+        "description": "Just like the summary. If you want all the wombats, look here. If you want fewer than that, try something else.",
+        "operationId": "GetAll",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Wombats",
+          "POST"
+        ],
+        "summary": "Create brand new wombats",
+        "operationId": "Post",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "The information about the wombats we want to create",
+            "schema": {
+              "description": "The information about the wombats we want to create",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Wombats/{id}": {
+      "get": {
+        "tags": [
+          "Wombats",
+          "GET"
+        ],
+        "summary": "Get me a wombat. A specific one.",
+        "description": "Just one wombat, but you have to know exactly the one you want.",
+        "operationId": "GetOne",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "description": "The id of the wombat we want.",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Wombats",
+          "PUT"
+        ],
+        "summary": "Update a wombat",
+        "operationId": "PutWombat",
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "description": "The id of the wombat to update",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "The value to use in updating the wombat",
+            "schema": {
+              "description": "The value to use in updating the wombat",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Wombats",
+          "DELETE"
+        ],
+        "summary": "Delete a wombat",
+        "operationId": "DeleteWombat",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "description": "The id of the wombat to delete",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  }
+}

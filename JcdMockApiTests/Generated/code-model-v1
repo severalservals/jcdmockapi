@@ -1,0 +1,763 @@
+{
+ "$id": "1",
+ "name": "JCDMockAPI",
+ "namespace": "JcdMockApi",
+ "modelsName": "Models",
+ "apiVersion": "v1",
+ "baseUrl": "http://localhost",
+ "properties": [
+  {
+   "$id": "2",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "3",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "4",
+    "fixed": false,
+    "raw": "The id of the wombat we want."
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///111?oai3.shaken.json"
+     ],
+     "name": "paths·138y9jm·wombats-id·get·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·138y9jm·wombats-id·get·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "5",
+    "fixed": false,
+    "raw": "id"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "6",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "7",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  },
+  {
+   "$id": "8",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "9",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "10",
+    "fixed": false,
+    "raw": "The id of the wombat to update"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///111?oai3.shaken.json"
+     ],
+     "name": "paths·12zvb61·wombats-id·put·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·12zvb61·wombats-id·put·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "11",
+    "fixed": false,
+    "raw": "Id1"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "12",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "13",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  },
+  {
+   "$id": "14",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "15",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "16",
+    "fixed": false,
+    "raw": "The id of the wombat to delete"
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///111?oai3.shaken.json"
+     ],
+     "name": "paths·dg9xw9·wombats-id·delete·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·dg9xw9·wombats-id·delete·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "17",
+    "fixed": false,
+    "raw": "Id2"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "18",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "19",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  }
+ ],
+ "operations": [
+  {
+   "$id": "20",
+   "methods": [
+    {
+     "$id": "21",
+     "name": {
+      "$id": "22",
+      "fixed": false,
+      "raw": "Wombats"
+     },
+     "group": {
+      "$id": "23",
+      "fixed": false,
+      "raw": "Transport"
+     },
+     "serializedName": "Transport_Wombats",
+     "url": "/Wombats",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "24",
+       "body": {
+        "$id": "25",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "26",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       },
+       "extensions": {
+        "$id": "27",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·yez81x·wombats·get·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/responses/paths·yez81x·wombats·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "28",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "29",
+      "body": {
+       "$ref": "25"
+      },
+      "isNullable": true
+     },
+     "description": "Just like the summary. If you want all the wombats, look here. If you want fewer than that, try something else.",
+     "summary": "Get me the wombats. All of them.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": []
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "30",
+     "parameters": [
+      {
+       "$id": "31",
+       "location": "body",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "32",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "33",
+        "fixed": false,
+        "raw": "The information about the wombats we want to create"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·1hopuub·wombats·post·requestbody",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/requestBodies/paths·1hopuub·wombats·post·requestbody"
+         ]
+        },
+        "x-ms-requestBody-name": "body"
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "34",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$id": "35",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "36",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "37",
+      "fixed": false,
+      "raw": "Wombats1"
+     },
+     "group": {
+      "$id": "38",
+      "fixed": false,
+      "raw": "Transport"
+     },
+     "serializedName": "Transport_Wombats",
+     "url": "/Wombats",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "OK": {
+       "$id": "39",
+       "extensions": {
+        "$id": "40",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·1mwnp1w·wombats·post·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/responses/paths·1mwnp1w·wombats·post·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "41",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "42",
+      "isNullable": true
+     },
+     "summary": "Create brand new wombats",
+     "requestContentType": "application/json-patch+json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [],
+      "x-ms-requestBody-index": "0"
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "43",
+     "parameters": [
+      {
+       "$id": "44",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "45",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "46",
+        "fixed": false,
+        "raw": "The id of the wombat we want."
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·138y9jm·wombats-id·get·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·138y9jm·wombats-id·get·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "47",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "48",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "49",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "50",
+      "fixed": false,
+      "raw": "Wombats2"
+     },
+     "group": {
+      "$id": "51",
+      "fixed": false,
+      "raw": "Transport"
+     },
+     "serializedName": "Transport_Wombats",
+     "url": "/Wombats/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "52",
+       "body": {
+        "$id": "53",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "54",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       },
+       "extensions": {
+        "$id": "55",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·3zhb6k·wombats-id·get·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/responses/paths·3zhb6k·wombats-id·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "56",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "57",
+      "body": {
+       "$ref": "53"
+      },
+      "isNullable": true
+     },
+     "description": "Just one wombat, but you have to know exactly the one you want.",
+     "summary": "Get me a wombat. A specific one.",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": []
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "58",
+     "parameters": [
+      {
+       "$id": "59",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "60",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "61",
+        "fixed": false,
+        "raw": "The id of the wombat to update"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·12zvb61·wombats-id·put·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·12zvb61·wombats-id·put·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "62",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "63",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "64",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      },
+      {
+       "$id": "65",
+       "location": "body",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "66",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "67",
+        "fixed": false,
+        "raw": "The value to use in updating the wombat"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·15suluz·wombats-id·put·requestbody",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/requestBodies/paths·15suluz·wombats-id·put·requestbody"
+         ]
+        },
+        "x-ms-requestBody-name": "body"
+       },
+       "isRequired": false,
+       "isConstant": false,
+       "name": {
+        "$id": "68",
+        "fixed": false,
+        "raw": "body"
+       },
+       "serializedName": "body",
+       "modelType": {
+        "$id": "69",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "70",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "71",
+      "fixed": false,
+      "raw": "Wombats3"
+     },
+     "group": {
+      "$id": "72",
+      "fixed": false,
+      "raw": "Transport"
+     },
+     "serializedName": "Transport_Wombats",
+     "url": "/Wombats/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "put",
+     "responses": {
+      "OK": {
+       "$id": "73",
+       "extensions": {
+        "$id": "74",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·1m02dre·wombats-id·put·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/responses/paths·1m02dre·wombats-id·put·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "75",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "76",
+      "isNullable": true
+     },
+     "summary": "Update a wombat",
+     "requestContentType": "application/json-patch+json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [],
+      "x-ms-requestBody-index": "1"
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "77",
+     "parameters": [
+      {
+       "$id": "78",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "79",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "80",
+        "fixed": false,
+        "raw": "The id of the wombat to delete"
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·dg9xw9·wombats-id·delete·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/parameters/paths·dg9xw9·wombats-id·delete·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "81",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "82",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "83",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "84",
+      "fixed": false,
+      "raw": "Wombats4"
+     },
+     "group": {
+      "$id": "85",
+      "fixed": false,
+      "raw": "Transport"
+     },
+     "serializedName": "Transport_Wombats",
+     "url": "/Wombats/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "delete",
+     "responses": {
+      "OK": {
+       "$id": "86",
+       "extensions": {
+        "$id": "87",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///111?oai3.shaken.json"
+         ],
+         "name": "paths·jgl6bf·wombats-id·delete·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/Justin/source/repos/JcdMockApi/JcdMockApiTests/swaggerV2.json#/components/responses/paths·jgl6bf·wombats-id·delete·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "88",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "89",
+      "isNullable": true
+     },
+     "summary": "Delete a wombat",
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": []
+     },
+     "deprecated": false,
+     "hidden": false
+    }
+   ],
+   "name": {
+    "$id": "90",
+    "fixed": false,
+    "raw": "Transport"
+   },
+   "typeName": {
+    "$id": "91",
+    "fixed": false
+   },
+   "nameForProperty": "Transport"
+  }
+ ]
+}
