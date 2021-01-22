@@ -10,7 +10,8 @@ using Newtonsoft.Json;
 using PrinterManager.Database.Repositories;
 using System.Net.Security;
 using System.Text.RegularExpressions;
-
+// NOTE TO Pharmapacks reviewers: Anything prefaced with QUESTION/COMMENT is not text that I'd leave in the final version 
+// of the file, but indicates an area that I would want to research further or ask about before finalizing the documentation.
 namespace PrinterManager.Server
 {
     /// <summary>Start and manage a TCP server to handle ZPL-print requests sent over the network.</summary>
