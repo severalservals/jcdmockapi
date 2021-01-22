@@ -4,7 +4,8 @@ using System.Drawing.Printing;
 using PrinterManager.Helpers;
 using System.Management;
 using PrinterManager.Database.Repositories;
-
+// NOTE TO Pharmapacks reviewers: Anything prefaced with QUESTION/COMMENT is not text that I'd leave in the final version 
+// of the file, but indicates an area that I would want to research further or ask about before finalizing the documentation.
 namespace PrinterManager.Printing
 {
     // Triple-slashed XML comments with reserved keywords lend themsevles to auto-generated documentation
